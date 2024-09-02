@@ -1,0 +1,64 @@
+*{
+   
+}
+.body{
+    align-items: center;
+    padding: 100px;
+    background-color: rgb(23, 28, 34);
+}
+#contact{
+  
+
+
+}
+.form{
+    background-color:  rgb(42, 216, 131);
+    margin-top: 4rem;
+    height: fit-content;
+    padding: 1.5rem 2rem;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    width:fit-content;
+ 
+}
+.d-1 input{
+    height: 1.5rem;
+    width: 16rem;
+    margin-left:10px;
+    margin-bottom: 20px;
+    background-color: rgb(23, 28, 34);
+
+}
+.d-2 input{
+    height: 1.5rem;
+    width: 33.3rem;
+    margin-top: 1rem;
+    margin-left:10px;
+    background-color: rgb(23, 28, 34);
+}
+.d-3 input{
+    height: 13rem;
+    width: 33.3rem;
+    margin-top: 1rem;
+    margin-left:10px;
+    background-color: rgb(23, 28, 34);
+}
+.d-4 a div{
+    color: white;
+    background-color: rgb(23, 28, 34);
+    margin-top:1rem;
+    margin-left:10px;
+    padding: 10px 20px;
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid #222222;
+    transition: all 1s;
+
+}
+.d-4 a div:hover{
+    letter-spacing: 5px;
+    width: 4rem;
+    text-decoration:none;
+    background-color: #0074BA;
+    border: 2px solid #0074BA;
+}
