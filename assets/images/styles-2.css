@@ -1,16 +1,12 @@
-*{
+*{text-align: auto;
    
 }
 .body{
-    align-items: center;
+
     padding: 100px;
     background-color: rgb(23, 28, 34);
 }
-#contact{
-  
 
-
-}
 .form{
     background-color:  rgb(42, 216, 131);
     margin-top: 4rem;
