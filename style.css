@@ -1,6 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    /* background-color:  rgb(42, 216, 131); */
+}
+body{
+    
 }
 .header-2{
     justify-content: left;
@@ -65,7 +69,7 @@ a:hover{
     display:flex;
     justify-content:center;
     padding-top: 50px;
-    
+    flex-wrap: wrap;
 }
 .text{
     padding-left: 20px;
@@ -131,28 +135,43 @@ img{
    display: flex;
    justify-content: space-between;
    padding: 50px;
+   gap: 40px;
+
 
 }
 .box-div-1{
-    background-color: rgb(42, 216, 131);
-    width: 200px;
+    background-color:  rgb(23, 28, 34);
+    width: 400px;
     height:200px;
-    margin-left: 200px;
+    margin-left: 150px;
     border-radius: 10px;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
 
 }
 .box-div-2{
     background-color: rgb(23, 28, 34);
-    width: 200px;
+    width: 400px;
     height: 200px;
     border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .box-div-3{
     background-color: rgb(23, 28, 34);
-    width: 200px;
+    width: 400px;
     height: 200px;
-    margin-right: 200px;
-    border-radius: 10px
+    margin-right: 150px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.skill-image{
+    border-radius: 5px !important;
+
 }
 
 .body{
@@ -162,7 +181,9 @@ img{
 }
 .contact{
     background-color: rgb(32, 39, 47);
-    padding-left: 500px;
+    padding-left: 400px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .form{
@@ -183,6 +204,7 @@ img{
     margin-left:10px;
     margin-bottom: 20px;
     background-color: rgb(23, 28, 34);
+    color: rgb(42, 216, 131);
 
 }
 .d-2 input{
@@ -191,6 +213,7 @@ img{
     margin-top: 1rem;
     margin-left:10px;
     background-color: rgb(23, 28, 34);
+    color:  rgb(42, 216, 131);
 }
 .d-3 input{
     height: 13rem;
@@ -198,9 +221,10 @@ img{
     margin-top: 1rem;
     margin-left:10px;
     background-color: rgb(23, 28, 34);
+    color: rgb(42, 216, 131);
 }
 .d-4 a div{
-    color: white;
+    color:  rgb(42, 216, 131);
     background-color: rgb(23, 28, 34);
     margin-top:1rem;
     margin-left:10px;
@@ -217,6 +241,17 @@ img{
     text-decoration:none;
     background-color: #0074BA;
     border: 2px solid #0074BA;
+}
+.form-body{
+    background-color:  rgb(42, 216, 131);
+}
+@media (max-width:768px){
+    .header{
+        flex-direction: column;
+    }
+    .div-1{
+        flex-direction: column;
+    }
 }
 
 
