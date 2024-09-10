@@ -6,15 +6,22 @@
 body{
     
 }
+header{
+    position:sticky;
+    top: 0px;
+}
 .header-2{
     justify-content: left;
+
 }
 .header{
     background-color: rgb(23, 28, 34);
+    /* background-color: white; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 40px;
+
 }
 .logo{
     background-color: rgb(42, 216, 131);
@@ -106,8 +113,10 @@ img{
 }
 .footer{
     background-color:  rgb(23, 28, 34);
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
+    align-items: center; */
+    text-align: center;
 
 }
 .navbar-2{
@@ -148,6 +157,11 @@ img{
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    display:flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 30PX;
+    color:  rgb(42, 216, 131);
     
 
 }
@@ -158,6 +172,14 @@ img{
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    display:flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 30PX;
+    align-items: center;
+    color:  rgb(42, 216, 131);
+
+
 }
 .box-div-3{
     background-color: rgb(23, 28, 34);
@@ -167,11 +189,21 @@ img{
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    display:flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 30PX;
+    align-items: center;
+    gap: 20PX;
+    color:  rgb(42, 216, 131);
+
+
+    
 
 }
-.skill-image{
-    border-radius: 5px !important;
-
+.box-div-2 img{
+    border-radius: 5px;
+    
 }
 
 .body{
@@ -253,7 +285,11 @@ img{
         flex-direction: column;
     }
 }
-
+.contact-bar{
+    background-color: rgb(23, 28, 34);
+    text-align: center;
+    color: rgb(42, 216, 131);
+}
 
 
 
