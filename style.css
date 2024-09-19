@@ -43,6 +43,7 @@ header{
 }
 nav a{
     text-decoration: none;
+    color: rgb(32, 39, 47);
 }
 .nav-items{
     background-color: rgb(42, 216, 131);
@@ -291,18 +292,25 @@ a:hover{
     padding-left: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
+    display: flex;
+    justify-content:space-around;
+    padding-right: 50px;
 
 
 }
 .img-background{
     background-color:  rgb(42, 216, 131);
-    width: 410px;
-    height: 410px;
+    width: 510px;
+    height: 510px;
     display: flex;
     align-items: center;
     justify-content: center;
     justify-content:space-around;
+    border-radius: 10px;
 
+}
+.img-background img{
+    border-radius: 10px;
 }
 @media only screen and (max-width: 768px) {
 
