@@ -353,8 +353,8 @@ a:hover{
 
 }
 .img-background img:hover{ 
-    width: 550px;
-    height: 550px;
+    width: 520px;
+    height: 520px;
     transition: 0.8s ease;
     cursor: pointer;
 } 
@@ -463,47 +463,8 @@ a:hover{
   font-size: 18px;
   font-weight: 600;
   padding-bottom: 20px;
+  padding-left: 20px;
   }
-/* @media (max-width: 768px) {
-    .header {
-        flex-direction: column;
-        align-items: flex-start;
-        overflow: scroll;
-    }
-
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-        overflow: scroll;
-    }
-
-    .div-2 {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .box-div {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .box-div-1, .box-div-2, .box-div-3 {
-        width: 90%; Full width on smaller screens
-    }
-
-    .projects {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .img-background {
-        width: 100%;
-    }
-    .form{
-        align-items: center;
-        text-align: center;
-    }
-} */
 
 @media (max-width: 768px) {
     
@@ -546,6 +507,8 @@ a:hover{
         flex-direction: column;
         width: 108%;
         align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     .box-div{
         flex-direction: column;
@@ -608,9 +571,11 @@ a:hover{
 .img-background{
     width:90%;
 }
-.nav-space{
-
+.img-background img{
+    width: 100%;
+    height:100%
 }
+
 .hamburger {
     height:30px;
     padding-bottom: 20px;
@@ -631,11 +596,36 @@ a:hover{
 .form-body{
     margin-left: 10px;
 }
-
-
-
-
-
+.text-2{
+    margin-left: 20px;
+}
+.box-div-1:hover{
+    width: 310px;
+    height: 230px;
+    transition: 0.8s ease;
+    cursor: pointer;
+}
+.box-div-2:hover{
+    width: 310px;
+    height: 230px;
+    transition: 0.8s ease;
+    cursor: pointer;
+}
+.box-div-3:hover{
+    width: 310px;
+    height: 230px;
+    transition: 0.8s ease;
+    cursor: pointer;
+}
+.img-background img:hover{ 
+    width: 400px;
+    height: 520px;
+    transition: 0.8s ease;
+    cursor: pointer;
+}
+.last-8{
+    padding-left: 20px;
+}
 }
 /* hamburger menu */
 .hamburger {
@@ -669,6 +659,7 @@ a:hover{
 
 .nav ul li {
     padding: 10px 10px;
+    width: 100px;
 
 }
 
