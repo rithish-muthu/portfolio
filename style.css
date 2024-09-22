@@ -644,6 +644,11 @@ a:hover{
     padding: 15px;
     background-color: #333;
     color: white;
+    height: 30px;
+    /* padding-bottom: 5px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -663,7 +668,7 @@ a:hover{
 }
 
 .nav ul li {
-    padding: 10px 20px;
+    padding: 10px 10px;
 
 }
 
@@ -678,7 +683,7 @@ a:hover{
 .nav ul li:hover{
     letter-spacing: 5px;
     transition: 0.8s ease; 
-    cursor: pointer;
+    cursor:pointer;
     background-color: rgb(23, 28, 34);
 }
 .nav ul li a:hover{
