@@ -340,6 +340,7 @@ a:hover{
     text-decoration:none;
     background-color: #20272f;
     border: 2px solid #20272f;
+    transition: all 1s;
 }
 .form-body{
     /* background-color:  rgb(42, 216, 131); */
@@ -459,7 +460,9 @@ a:hover{
     justify-content: center;
     align-items: center;
     transition: 0.4s ease-in-out;
+
   }
+  
   .oo i:hover{
   background-color: #000030;
   border: white 1px solid;
