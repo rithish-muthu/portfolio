@@ -186,7 +186,7 @@ a:hover{
     padding-top: 10px;
     padding-bottom: 10px;
     display:flex;
-    justify-content: space-between;
+    justify-content:space-around;
     padding-left: 20px;
     padding-right: 30PX;
     color:  rgb(42, 216, 131);
@@ -207,7 +207,7 @@ a:hover{
     padding-top: 10px;
     padding-bottom: 10px;
     display:flex;
-    justify-content: space-between;
+    justify-content:space-around;
     padding-left: 20px;
     padding-right: 30PX;
     align-items: center;
@@ -230,7 +230,7 @@ a:hover{
     padding-top: 10px;
     padding-bottom: 10px;
     display:flex;
-    justify-content: space-between;
+    justify-content:space-around;
     padding-left: 20px;
     padding-right: 30PX;
     align-items: center;
