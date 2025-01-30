@@ -14,7 +14,7 @@ body {}
 header {
     position: sticky;
     top: 0px;
-    z-index: 20px;
+    z-index: 500px;
     box-shadow: rgb(0, 255, 255) 1px 1px 1px 0px;
 
 }
@@ -302,8 +302,10 @@ footer {
     padding-top: 40px;
     padding-bottom: 40px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 100px;
     height: 500px;
 
 }
@@ -695,6 +697,7 @@ footer {
     .contact {
         flex-direction: column;
         padding: 20px;
+        padding-bottom: 100px;
     }
 
     .form input {
@@ -787,14 +790,176 @@ footer {
     align-items: center;
     justify-content: center;
     gap: 50px;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     padding-top: 30px;
 }
 .life_skills{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    gap: 50px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 100px;
     margin-top: 20px;
     padding: 40px;
 }
+
+
+/* Container for the skill */
+.skills__data {
+    border-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the name and icon */
+  .skills__names {
+    display: flex;
+    align-items: center;
+    color: aqua;
+  }
+  
+  .skills__icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .skills__name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Container for the progress bar and percentage */
+  .html_skills__bar-container {
+    position: relative;
+    width: 100%;
+    border-radius: 8px;
+    height: 10px;
+    margin: 10px 0;
+  }
+  
+  /* The progress bar */
+  .skills__bar {
+ /* Adjust this percentage based on skill level */
+    height: 100%;
+    background-color: #4caf50; /* Green for the progress */
+    border-radius: 8px;
+  }
+  
+  /* Percentage label inside the progress bar */
+  .skills__percentage {
+    position: absolute;
+    top: -20px; /* Adjust position as needed */
+    right: 0;  /* Align to the right of the container */
+    font-size: 14px;
+    color: aqua;
+    font-weight: bold;
+  }
+  
+  /* Level section */
+  .level {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: aqua;
+  }
+  
+  /* For specific skill class (in this case, CSS) */
+  .skills__html {
+    width: 85%; /* Adjust based on the actual skill level */
+  }
+  /*css level*/
+
+  .css_skills__bar-container {
+    position: relative;
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    height: 10px;
+    margin: 10px 0;
+  }
+  .skills__css{
+    width: 75%;
+  }
+
+  /*js level */
+  .js_skills__bar-container {
+    position: relative;
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    height: 10px;
+    margin: 10px 0;
+  }
+  .skills__js{
+    width: 65%;
+  }
+
+    /*bootstrap level */
+    .bootstrap_skills__bar-container {
+        position: relative;
+        width: 100%;
+        background-color: #e0e0e0;
+        border-radius: 8px;
+        height: 10px;
+        margin: 10px 0;
+      }
+      .skills__bootstrap{
+        width: 50%;
+      }
+
+    /*mysql level */
+    .mysql_skills__bar-container {
+        position: relative;
+        width: 100%;
+        background-color: #e0e0e0;
+        border-radius: 8px;
+        height: 10px;
+        margin: 10px 0;
+      }
+      .skills__mysql{
+        width: 50%;
+      }
+
+      /* python level */
+      .python_skills__bar-container {
+        position: relative;
+        width: 100%;
+        background-color: #e0e0e0;
+        border-radius: 8px;
+        height: 10px;
+        margin: 10px 0;
+      }
+      .skills__python{
+        width: 50%;
+      }
+
+      /* react level */
+      .react_skills__bar-container {
+        position: relative;
+        width: 100%;
+        background-color: #e0e0e0;
+        border-radius: 8px;
+        height: 10px;
+        margin: 10px 0;
+      }
+      .skills__react{
+        width: 50%;
+      }
+
+      .skill_alignment{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+      }
+      .skill_text{
+        color: black;
+      }
+      .skill{
+        text-align: center;
+        color:rgb(0, 255, 255) 2px;
+        background-color: #171c22;
+      }
+      .skills_text{
+        color: aqua;
+      }
 
