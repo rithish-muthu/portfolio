@@ -182,6 +182,9 @@ footer {
     box-shadow: black 1px 1px 1px 1px;
 
 }
+.skill{
+    
+}
 
 .skills {
     background-color: rgb(23, 28, 34);
@@ -828,6 +831,7 @@ footer {
   /* Container for the progress bar and percentage */
   .html_skills__bar-container {
     position: relative;
+    background-color: #e0e0e0;
     width: 100%;
     border-radius: 8px;
     height: 10px;
@@ -862,7 +866,7 @@ footer {
   
   /* For specific skill class (in this case, CSS) */
   .skills__html {
-    width: 85%; /* Adjust based on the actual skill level */
+    width: 60%; /* Adjust based on the actual skill level */
   }
   /*css level*/
 
@@ -875,7 +879,7 @@ footer {
     margin: 10px 0;
   }
   .skills__css{
-    width: 75%;
+    width: 60%;
   }
 
   /*js level */
@@ -888,11 +892,11 @@ footer {
     margin: 10px 0;
   }
   .skills__js{
-    width: 65%;
+    width: 60%;
   }
 
     /*bootstrap level */
-    .bootstrap_skills__bar-container {
+    /* .bootstrap_skills__bar-container {
         position: relative;
         width: 100%;
         background-color: #e0e0e0;
@@ -902,7 +906,7 @@ footer {
       }
       .skills__bootstrap{
         width: 50%;
-      }
+      } */
 
     /*mysql level */
     .mysql_skills__bar-container {
@@ -914,7 +918,7 @@ footer {
         margin: 10px 0;
       }
       .skills__mysql{
-        width: 50%;
+        width: 60%;
       }
 
       /* python level */
@@ -927,11 +931,11 @@ footer {
         margin: 10px 0;
       }
       .skills__python{
-        width: 50%;
+        width: 40%;
       }
 
       /* react level */
-      .react_skills__bar-container {
+      /* .react_skills__bar-container {
         position: relative;
         width: 100%;
         background-color: #e0e0e0;
@@ -940,8 +944,8 @@ footer {
         margin: 10px 0;
       }
       .skills__react{
-        width: 50%;
-      }
+        width: 40%;
+      } */
 
       .skill_alignment{
         display: grid;
